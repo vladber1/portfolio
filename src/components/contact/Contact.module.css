@@ -1,0 +1,131 @@
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.content {
+  margin: 0 -15px;
+}
+.column {
+  width: 100%;
+}
+.sectionTitle {
+  margin: 0;
+  padding-bottom: 32px;
+}
+.sectionTitle h2 {
+  color: #575757;
+  font-size: 35px;
+  line-height: normal;
+  font-weight: 300;
+  animation: slideInUp 1s ease-in-out forwards;
+  transform: translateY(100%);
+}
+.sectionTitle p {
+  color: #878787;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  animation: slideInUp 1.2s ease-in-out forwards;
+  transform: translateY(100%);
+}
+.formItem {
+  width: 100%;
+  margin: 0 20px;
+  animation: slideInUp 1.5s ease-in-out forwards;
+  transform: translateY(100%);
+}
+.formItem input {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.4s;
+  height: 55px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+}
+.row {
+  display: flex;
+}
+.formItem input {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.4s;
+  height: 55px;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+}
+.formItem textarea {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+  border-radius: 5px;
+  box-shadow: none;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.4s;
+  height: auto;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.4;
+  color: #555;
+  background-color: #fff;
+  max-width: 1170px;
+}
+.btnItem {
+  background: #d7b065;
+  border: none;
+  border-radius: 40px;
+  color: #fff;
+  font-weight: bold;
+  height: 55px;
+  padding-bottom: 10px;
+  margin-top: 24px;
+  font-size: 16px;
+  box-shadow: none;
+  margin-bottom: 10px;
+  transition: all ease-in-out 0.4s;
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  line-height: 1.4;
+  cursor: pointer;
+  animation: slideInUp 1.5s ease-in-out forwards;
+  transform: translateY(100%);
+}
+.btnItem:hover {
+  background: #3d3d3f;
+  color: #fff;
+}
+.columnbtn {
+  margin-left: 25%;
+  width: 50%;
+}
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
